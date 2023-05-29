@@ -1,0 +1,49 @@
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  margin: 0.3em;
+  cursor: pointer;
+  font-family: "Monaco", monospace;
+}
+
+.wrapper {
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 1em;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result{
+    display: flex;
+    justify-content: right;
+    margin: 1em;
+    font-size: 3em;
+}
+
+.button{
+  background-color: #ebdce2;
+}
+
+.operation{
+  background-color: #7375a5;
+}
+
+.delete{
+  background-color: #e67c7c;
+}
+
+.equal{
+  background-color: lightgreen;
+}
+
+.equal:hover,
+.operation:hover,
+.delete:hover,
+.number:hover,
+.button:hover{
+  opacity: 40%;
+}
